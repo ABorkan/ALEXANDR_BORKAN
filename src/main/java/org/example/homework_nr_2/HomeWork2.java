@@ -41,11 +41,8 @@ public class HomeWork2 {
             case 12:
                 System.out.println("Декабрь");
                 break;
-            case 0:
-                System.out.println("Такого месяца не существует!");
-                break;
             default:
-                System.out.println("Неправильно введено число!");
+                System.out.println("Такого месяца не существует!");
                 break;
         }
 
