@@ -60,6 +60,12 @@ public class HomeWork2 {
         }
         System.out.println(sum);
 
+        float sum1 = 0;
+        for(float i = 1; i<=99; i+=2){
+            sum1 = i/(i+2) + sum1;
+        }
+        System.out.println(sum1);
+
         //ДЗ пункт 7 (Бонус)
         String r = "";
         char z = '*';
@@ -67,5 +73,14 @@ public class HomeWork2 {
             r = r+z;
             System.out.println(r);
         }
+
+        for (int i = 1; i<=9; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+
     }
 }
