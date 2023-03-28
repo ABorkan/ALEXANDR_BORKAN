@@ -7,15 +7,14 @@ public class Circle {
         this.radius = radius;
     }
 
-    public static double calculateArea(int r){
-        double p;
-        p = Math.PI * (r * r);
-        return p;
+    public double calculateArea(){
+      return  Math.PI * (radius * radius);
+
     }
 
     public static void main(String[] args) {
         Circle radius = new Circle(8);
-        System.out.println("Площадь круга равна " + calculateArea(radius.radius) + " см^2");
+        System.out.println("Площадь круга равна " + radius.calculateArea() + " см^2");
     }
 
 }
