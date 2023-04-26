@@ -62,11 +62,7 @@ public class Main {
         System.out.println(toDoList);
 
 
-        toDoList.replaceAll(e -> {
-            if(e.contains("al"))
-                return "replaced String";
-            return e;
-        });
+        toDoList.replaceAll(e -> {return e.contains("al") ? "String" : e;});
 
         System.out.println(toDoList);
     }
